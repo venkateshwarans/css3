@@ -1,0 +1,47 @@
+@import 'reset.css';
+@import 'global.css';
+@import 'grid.css';
+@import 'flex.css';
+@import 'cards.css';
+@import 'chips.css';
+@import 'drawer.css';
+
+
+main {
+  gap: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+  place-items: center;
+}
+header {
+  display: grid;
+  place-items: center;
+  padding: 4em;
+  box-sizing: border-box;
+}
+
+header h1 {
+  color: var(--dark);
+  font-weight: bolder;
+  font-size: 3rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  background-color: #c9eeed;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 4rem;
+  box-shadow: 0px 3px 12px rgb(0 0 0 / 5%);
+}
+
+.section-title {
+  margin-top: 3.2rem;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.hide {
+  display: none;
+}

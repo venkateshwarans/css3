@@ -1,0 +1,40 @@
+.card {
+  background-color: var(--white);
+  max-width: 400px;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card__footer {
+  align-items: center;
+}
+
+.card__buttons {
+  gap: 10px;
+}
+
+.card__buttons a {
+  color: var(--dark-blue);
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.5rem 0rem;
+}
+
+.card__icons {
+  margin-left: auto;
+}
+
+.card__footer .card__icons i {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+}
+
+.card__text-over-image {
+  justify-content: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-shadow: 1px 1px 20px rgb(0 0 0 / 50%);
+}

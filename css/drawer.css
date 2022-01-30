@@ -1,0 +1,55 @@
+.drawer , .collapsible-drawer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 0 auto;
+  grid-area: drawer;
+  transition: 0.15s;
+
+}
+.drawer-item {
+  padding: 1em;
+  display: flex;
+  gap: 2em;
+  color: var(--gray);
+  flex-grow: 1;
+  align-items: center;
+}
+.drawer-item.active {
+  color: #0d4e6e;
+  border-radius: 4px;
+  background-color: rgb(13 78 110 / 20%);
+}
+
+.drawer-container {
+  min-height: 50vh;
+  grid-template-areas:
+  "header header header"
+  "drawer content content"
+  "drawer content content";
+  grid-auto-rows: max-content;
+
+}
+
+.drawer-header {
+  grid-area: header;
+  background-color: var(--navy-blue);
+  color: var(--light);
+  align-items: center;
+  gap: 1.4em;
+}
+
+.main-content {
+  grid-area: content;
+}
+
+.collapsible-drawer.collapse {
+  width: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.collapsible-drawer.collapse .drawer-item {
+  opacity: 0;
+}

@@ -1,0 +1,24 @@
+.chip {
+  padding: 0.5rem 0rem;
+  background-color: var(--indigo);
+  margin: 0.5rem;
+  color: white;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 100px;
+}
+
+.chip .avatar {
+  font-size: 1.25rem;
+  border-radius: 50%;
+  background-color: #461499;
+  padding: 0.5rem;
+}
+
+.chip .close {
+  font-size: 1.25rem;
+  border-radius: 50%;
+  color: #c1a9e7;
+}
